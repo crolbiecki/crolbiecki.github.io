@@ -1725,7 +1725,12 @@ footer.darkFooter .copyright a:hover{
 }
 
 
-#center{
+.center{
+	text-align: center;
+	
+}
+
+.center a{
 	text-align: center;
 	
 }
