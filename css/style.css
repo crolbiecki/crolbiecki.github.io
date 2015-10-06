@@ -420,7 +420,7 @@ h5 {
 }
 
 #mainNav ul li .right-margin {
-    margin-right: 5	0px;
+    margin-right: 50px;
 }
 
 #mainNav ul li .left-margin {
@@ -492,7 +492,6 @@ a#resume-link{
 }
 
 #mainNav a:hover {
-	font-size: 3.5em;
 	opacity: 1;
 }
 
