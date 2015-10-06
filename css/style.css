@@ -486,6 +486,11 @@ h5 {
 	float: right;
 }
 
+a#resume-link{
+	font-size: inherit;
+	margin: 0;
+}
+
 #mainNav a:hover {
 	font-size: 3.5em;
 	opacity: 1;
