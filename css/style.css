@@ -478,13 +478,13 @@ h5 {
     color: #000;
 }
 
-#mainNav a {
+/*#mainNav a {
 	font-size: 3.5em;
 	opacity: 0.75;
 	margin-top: 15px;
 	margin-right: 20px;
 	float: right;
-}
+}*/
 
 a#resume-link{
 	font-size: inherit;
