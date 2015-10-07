@@ -487,7 +487,7 @@ h5 {
 }*/
 
 .nav .navanchor{padding: 0;}
-.nav .navanchor:hover{background-color: none;}
+.nav .navanchor:hover{background-color: transparent;}
 
 #mainNav a:hover {
 	opacity: 1;
