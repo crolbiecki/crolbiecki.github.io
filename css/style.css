@@ -159,7 +159,7 @@ section {
 }
 
 .poster-image {
-	background: url('http://placehold.it/1280x720&text=Image+1');
+	background: #000;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
