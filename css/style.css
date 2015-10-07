@@ -486,8 +486,8 @@ h5 {
 	float: right;
 }*/
 
-nav .nav-anchor{padding: 0;}
-nav .nav-anchor:hover{background-color: none;}
+.nav .nav-anchor{padding: 0;}
+.nav .nav-anchor:hover{background-color: none;}
 
 #mainNav a:hover {
 	opacity: 1;
