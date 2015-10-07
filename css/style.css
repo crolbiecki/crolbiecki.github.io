@@ -486,10 +486,8 @@ h5 {
 	float: right;
 }*/
 
-a#resume-link{
-	font-size: inherit;
-	margin: 0;
-}
+nav .nav-anchor{padding: 0;}
+nav .nav-anchor:hover{background-color: none;}
 
 #mainNav a:hover {
 	opacity: 1;
