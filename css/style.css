@@ -1664,6 +1664,10 @@ footer .footer-social a.facebook:hover {
 	background: #3b5998;
 }
 
+footer .footer-social a.linkedin:hover { 
+	background: #3b5998;
+}
+
 footer .footer-social a.twitter:hover { 
 	background: #00aced;
 }
@@ -1736,4 +1740,8 @@ footer.darkFooter .copyright a:hover{
 .center a{
 	text-align: center;
 	
+}
+
+.work-padding{
+	padding-bottom: 20px;
 }
