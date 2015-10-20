@@ -550,9 +550,9 @@ h5 {
 	opacity: 1;
 }
 
-.menu-mobile .mobileanchor ul li a{
+#quickfix ul li a{
 	background: none;
-	font-size: 2.5em;
+	font-size: 1em;
 	font-weight: 200;
 	width: 300px;
 	text-align: center;
@@ -564,9 +564,6 @@ h5 {
     color: #fff;
 }
 
-#quickfix{
-	font-size: 12px;
-}
 
 /*------------------------------------------------------------------
 5. PAGES
