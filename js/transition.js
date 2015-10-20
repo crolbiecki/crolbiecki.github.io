@@ -40,12 +40,12 @@ var PageTransitions = (function () {
         $('.pt-trigger').click(function() {
         	$('.pt-page').scrollTop(0);
             $pageTrigger = $(this);
+            Animate($pageTrigger);
             if(!($('.pt-trigger-container').hasClass('workNav')))
                 $('.pt-trigger-container').addClass('workNav');
-            Animate($pageTrigger);
         });
     }
-
+     
     // All pt-trigger click event calls this function
     // This function gets the animation id, goto page that we define in `data-animation` and 'data-goto' repectively.
     function Animate($pageTrigger) {
