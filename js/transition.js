@@ -41,11 +41,9 @@ var PageTransitions = (function () {
         	$('.pt-page').scrollTop(0);
             $pageTrigger = $(this);
             Animate($pageTrigger);
-            if(!($('.pt-trigger-container').hasClass('workNav')))
-                $('.pt-trigger-container').addClass('workNav');
         });
     }
-     
+
     // All pt-trigger click event calls this function
     // This function gets the animation id, goto page that we define in `data-animation` and 'data-goto' repectively.
     function Animate($pageTrigger) {
@@ -476,7 +474,7 @@ var PageTransitions = (function () {
     	var style = $pageTrigger.attr('data-style');
         $('#mainNav').removeClass('lightNav').removeClass('darkNav').addClass(style);
         var styleNav = $pageTrigger.attr('data-style2');
-        $('.pt-trigger-container').removeClass('aboutmeNav').removeClass('workNav').removeClass('postNav').removeClass('blogNav').removeClass('contactNav');
+        $('.pt-trigger-container').removeClass('aboutmeNav').removeClass('postNav').removeClass('blogNav').removeClass('contactNav');
         $('.pt-trigger-container').addClass(styleNav);
     }
 
