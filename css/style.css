@@ -1133,7 +1133,7 @@ h5 {
 }
 
 .item img {
-    max-width: 105%;
+    max-width: 100%;
 }
 
 .item:hover img {
