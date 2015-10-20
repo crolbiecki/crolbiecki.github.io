@@ -41,6 +41,8 @@ var PageTransitions = (function () {
         	$('.pt-page').scrollTop(0);
             $pageTrigger = $(this);
             Animate($pageTrigger);
+            if(!($('.pt-trigger-container').hasClass('workNav')))
+                $('.pt-trigger-container').addClass('workNav');
         });
     }
 
