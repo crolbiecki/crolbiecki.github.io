@@ -1203,7 +1203,7 @@ h5 {
     -o-transform: scale(1);
     transform: scale(1);
 }
-.persona ul{
+#persona ul{
 	list-style: circle;
 }
 	/*------------------------------------------------------------------
