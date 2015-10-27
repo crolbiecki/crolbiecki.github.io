@@ -264,7 +264,7 @@ jQuery(document).ready(function() {
 	================================================== */
 	var $container = $('#gallery').imagesLoaded( function() {
 		$container.isotope({
-			itemSelector: '.item',
+			itemSelector: '.UX',
 			masonry: {
 				columnWidth: '.grid-sizer'
 			}
