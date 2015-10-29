@@ -566,7 +566,8 @@ h5 {
 
 .menuicon {
 	font-size: 3em;
-	padding-top: 10px;
+	padding-top: 19px;
+	position: fixed;
 }
 
 /*------------------------------------------------------------------
