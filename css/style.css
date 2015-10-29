@@ -574,6 +574,10 @@ h5 {
 	font-size: 1em;
 	text-align: center;
 	opacity: 1;
+	top: 0px;
+	right: 0px;
+	padding: 0px;
+	display: inline;
 }
 
 /*------------------------------------------------------------------
