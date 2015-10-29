@@ -1240,6 +1240,7 @@ h5 {
 		background: none;
 		font-size: 1.7em;
 		z-index: 100;
+		background: #fff;
 	}
 	
 	.work-container button:hover{
